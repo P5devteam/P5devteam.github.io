@@ -1,23 +1,22 @@
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
-  url: "https://your-docusaurus-test-site.com",
+  title: "Plataforma 5 - Coding Bootcamp",
+  tagline: "Technical guide",
+  url: "https://P5devteam.github.io",
   baseUrl: "/",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "P5devteam",
+  projectName: "docs",
   themeConfig: {
     navbar: {
-      title: "My Site",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg"
+        alt: "Plataforma 5 - Coding Bootcamp",
+        src: "img/favicon.ico"
       },
       links: [
         { to: "docs/intro", label: "Docs", position: "left" },
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/plataforma5la/docs",
           label: "GitHub",
           position: "right"
         }
@@ -27,50 +26,42 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Way of Work",
           items: [
             {
               label: "Style Guide",
-              to: "docs/doc1"
-            },
-            {
-              label: "Second Doc",
-              to: "docs/doc2"
+              to: "docs/intro"
             }
           ]
         },
         {
-          title: "Community",
+          title: "Contact",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus"
+              label: "Slack",
+              href: "https://plataforma5.slack.com/messages"
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus"
+              label: "Landing",
+              href: "https://plataforma5.la"
             }
           ]
         },
         {
-          title: "Social",
+          title: "Services",
           items: [
             {
-              label: "Blog",
-              to: "blog"
+              label: "Github",
+              to: "https://github.com/P5devteam"
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus"
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus"
+              label: "AWS",
+              href: "https://aws.amazon.com"
             }
           ]
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
+      copyright: `Copyright © ${new Date().getFullYear()} Plataforma 5 - Coding Bootcamp, Built with Docusaurus.`
     }
   },
   presets: [
