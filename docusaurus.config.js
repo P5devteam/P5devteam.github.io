@@ -16,7 +16,7 @@ module.exports = {
         { to: "docs/intro", label: "Docs", position: "left" },
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/plataforma5la/docs",
+          href: "https://github.com/P5devteam/docs",
           label: "GitHub",
           position: "right"
         }
